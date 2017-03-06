@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 
 import CardList from './card-list'
 
-export default function Board() {
+export default function Board(props) {
   return (
     <div className="board">
-      <CardList />
-      <CardList />
-      <CardList />
+      <CardList title="Board One"
+                lists=["List One", "List Two", "List Three"]/>
+      
     </div>
   )
 }

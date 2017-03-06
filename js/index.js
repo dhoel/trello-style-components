@@ -2,8 +2,8 @@ require('babel-polyfill');
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import Board from './components/board';
+import CardList from './components/card-list';
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDom.render(<Board />, document.getElementById('app'))
+  ReactDom.render(<CardList />, document.getElementById('app'))
 });
